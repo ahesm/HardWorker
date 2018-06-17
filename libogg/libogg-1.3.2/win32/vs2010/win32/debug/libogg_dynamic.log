@@ -1,0 +1,6 @@
+﻿  framing.c
+  bitwise.c
+  코드를 생성하고 있습니다...
+bitwise.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/OPT:ICF' 사양으로 인해 무시됩니다.
+     C:\Users\user\Desktop\Dev\libogg\libogg-1.3.2\win32\VS2010\Win32\Debug\libogg.lib 라이브러리 및 C:\Users\user\Desktop\Dev\libogg\libogg-1.3.2\win32\VS2010\Win32\Debug\libogg.exp 개체를 생성하고 있습니다.
+  libogg_dynamic.vcxproj -> C:\Users\user\Desktop\Dev\libogg\libogg-1.3.2\win32\VS2010\Win32\Debug\libogg.dll

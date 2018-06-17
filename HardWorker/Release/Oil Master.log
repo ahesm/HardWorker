@@ -1,0 +1,35 @@
+﻿  EndGameScene.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (August 2009)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\users\parks\downloads\oil master\oil master\oil master\Progress.h(22): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+c:\users\parks\downloads\oil master\oil master\oil master\Progress.h(23): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+EndGameScene.cpp(31): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+EndGameScene.cpp(32): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+EndGameScene.cpp(33): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+EndGameScene.cpp(74): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+EndGameScene.cpp(75): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+EndGameScene.cpp(90): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+EndGameScene.cpp(99): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+EndGameScene.cpp(105): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+EndGameScene.cpp(111): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+EndGameScene.cpp(119): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+EndGameScene.cpp(120): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+EndGameScene.cpp(122): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+EndGameScene.cpp(124): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+EndGameScene.cpp(126): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+EndGameScene.cpp(128): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+EndGameScene.cpp(131): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+EndGameScene.cpp(132): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+EndGameScene.cpp(133): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+EndGameScene.cpp(134): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+EndGameScene.cpp(135): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+EndGameScene.cpp(140): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+EndGameScene.cpp(140): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+EndGameScene.cpp(141): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+EndGameScene.cpp(141): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다.
+  1 of 2210 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  Oil Master.vcxproj -> C:\Users\parks\Downloads\Oil Master\Oil Master\Release\Oil Master.exe
+  Oil Master.vcxproj -> C:\Users\parks\Downloads\Oil Master\Oil Master\Release\Oil Master.pdb (Full PDB)

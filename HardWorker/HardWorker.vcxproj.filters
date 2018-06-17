@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Gasolinn">
+      <UniqueIdentifier>{e046b438-1328-4e11-8fd8-9931fadfa3ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Scene">
+      <UniqueIdentifier>{c97344e4-ff3d-42bb-98b5-b78dc5a8a6b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{ad4ea70b-50f0-409a-9288-c5a65e795ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object">
+      <UniqueIdentifier>{db6762f0-b0a4-4132-9ab6-d071a643fd4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Object">
+      <UniqueIdentifier>{f67a9085-62ea-4565-807e-b7ac34e7120e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Timeline">
+      <UniqueIdentifier>{58db8f23-0947-440f-98d3-26084c27ed86}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Gasolinn\AnimationManager.cpp">
+      <Filter>Gasolinn</Filter>
+    </ClCompile>
+    <ClCompile Include="Gasolinn\Application.cpp">
+      <Filter>Gasolinn</Filter>
+    </ClCompile>
+    <ClCompile Include="Gasolinn\ApplicationConfig.cpp">
+      <Filter>Gasolinn</Filter>
+    </ClCompile>
+    <ClCompile Include="Gasolinn\BGM.cpp">
+      <Filter>Gasolinn</Filter>
+    </ClCompile>
+    <ClCompile Include="Gasolinn\Collider.cpp">
+      <Filter>Gasolinn</Filter>
+    </ClCompile>
+    <ClCompile Include="Gasolinn\ExtraData.cpp">
+      <Filter>Gasolinn</Filter>
+    </ClCompile>
+    <ClCompile Include="Gasolinn\Function.cpp">
+      <Filter>Gasolinn</Filter>
+    </ClCompile>
+    <ClCompile Include="Gasolinn\GlobalVar.cpp">
+      <Filter>Gasolinn</Filter>
+    </ClCompile>
+    <ClCompile Include="Gasolinn\IDManager.cpp">
+      <Filter>Gasolinn</Filter>
+    </ClCompile>
+    <ClCompile Include="Gasolinn\Input.cpp">
+      <Filter>Gasolinn</Filter>
+    </ClCompile>
+    <ClCompile Include="Gasolinn\Label.cpp">
+      <Filter>Gasolinn</Filter>
+    </ClCompile>
+    <ClCompile Include="Gasolinn\Object.cpp">
+      <Filter>Gasolinn</Filter>
+    </ClCompile>
+    <ClCompile Include="Gasolinn\Random.cpp">
+      <Filter>Gasolinn</Filter>
+    </ClCompile>
+    <ClCompile Include="Gasolinn\ResourceManager.cpp">
+      <Filter>Gasolinn</Filter>
+    </ClCompile>
+    <ClCompile Include="Gasolinn\Root.cpp">
+      <Filter>Gasolinn</Filter>
+    </ClCompile>
+    <ClCompile Include="Gasolinn\Scene.cpp">
+      <Filter>Gasolinn</Filter>
+    </ClCompile>
+    <ClCompile Include="Gasolinn\SE.cpp">
+      <Filter>Gasolinn</Filter>
+    </ClCompile>
+    <ClCompile Include="Gasolinn\SoundEngine.cpp">
+      <Filter>Gasolinn</Filter>
+    </ClCompile>
+    <ClCompile Include="Gasolinn\Timeline.cpp">
+      <Filter>Gasolinn</Filter>
+    </ClCompile>
+    <ClCompile Include="Gasolinn\Timer.cpp">
+      <Filter>Gasolinn</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MineScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Miner.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Minecart.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MinerSelect.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectForm.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MineEntry.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="EndMineScene.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Progress.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="IngameMiner.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="EndGameScene.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMoney.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeOut.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeIn.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Gasolinn\AnimationManager.h">
+      <Filter>Gasolinn</Filter>
+    </ClInclude>
+    <ClInclude Include="Gasolinn\Application.h">
+      <Filter>Gasolinn</Filter>
+    </ClInclude>
+    <ClInclude Include="Gasolinn\ApplicationConfig.h">
+      <Filter>Gasolinn</Filter>
+    </ClInclude>
+    <ClInclude Include="Gasolinn\BGM.h">
+      <Filter>Gasolinn</Filter>
+    </ClInclude>
+    <ClInclude Include="Gasolinn\Collider.h">
+      <Filter>Gasolinn</Filter>
+    </ClInclude>
+    <ClInclude Include="Gasolinn\ExtraData.h">
+      <Filter>Gasolinn</Filter>
+    </ClInclude>
+    <ClInclude Include="Gasolinn\Function.h">
+      <Filter>Gasolinn</Filter>
+    </ClInclude>
+    <ClInclude Include="Gasolinn\GlobalVar.h">
+      <Filter>Gasolinn</Filter>
+    </ClInclude>
+    <ClInclude Include="Gasolinn\IDManager.h">
+      <Filter>Gasolinn</Filter>
+    </ClInclude>
+    <ClInclude Include="Gasolinn\Input.h">
+      <Filter>Gasolinn</Filter>
+    </ClInclude>
+    <ClInclude Include="Gasolinn\Label.h">
+      <Filter>Gasolinn</Filter>
+    </ClInclude>
+    <ClInclude Include="Gasolinn\Object.h">
+      <Filter>Gasolinn</Filter>
+    </ClInclude>
+    <ClInclude Include="Gasolinn\Random.h">
+      <Filter>Gasolinn</Filter>
+    </ClInclude>
+    <ClInclude Include="Gasolinn\ResourceManager.h">
+      <Filter>Gasolinn</Filter>
+    </ClInclude>
+    <ClInclude Include="Gasolinn\Root.h">
+      <Filter>Gasolinn</Filter>
+    </ClInclude>
+    <ClInclude Include="Gasolinn\Scene.h">
+      <Filter>Gasolinn</Filter>
+    </ClInclude>
+    <ClInclude Include="Gasolinn\SE.h">
+      <Filter>Gasolinn</Filter>
+    </ClInclude>
+    <ClInclude Include="Gasolinn\SoundEngine.h">
+      <Filter>Gasolinn</Filter>
+    </ClInclude>
+    <ClInclude Include="Gasolinn\Timeline.h">
+      <Filter>Gasolinn</Filter>
+    </ClInclude>
+    <ClInclude Include="Gasolinn\Timer.h">
+      <Filter>Gasolinn</Filter>
+    </ClInclude>
+    <ClInclude Include="Gasolinn.h">
+      <Filter>Gasolinn</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>헤더 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MineScene.h">
+      <Filter>헤더 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Minecart.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Miner.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MinerSelect.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectForm.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MineEntry.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="EndMineScene.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Progress.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="IngameMiner.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="EndGameScene.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>헤더 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMoney.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeOut.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeIn.h">
+      <Filter>헤더 파일\Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

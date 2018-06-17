@@ -1,0 +1,43 @@
+﻿  Title.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Miner.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Minecart.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  MineScene.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\dropbox\oil master\oil master\minescene.cpp(8): warning C4244: '인수' : 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\dropbox\oil master\oil master\minescene.cpp(9): warning C4244: '인수' : 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MainMenu.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\dropbox\oil master\oil master\mainmenu.cpp(7): warning C4244: '인수' : 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Main.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Timer.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\dropbox\oil master\oil master\gasolinn\timer.cpp(21): warning C4018: '>=' : signed 또는 unsigned가 일치하지 않습니다.
+  Timeline.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Scene.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Object.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\dropbox\oil master\oil master\gasolinn\object.cpp(185): warning C4244: '초기화 중' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\dropbox\oil master\oil master\gasolinn\object.cpp(189): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\dropbox\oil master\oil master\gasolinn\object.cpp(190): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\dropbox\oil master\oil master\gasolinn\object.cpp(191): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Collider.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Application.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\dropbox\oil master\oil master\gasolinn\application.cpp(75): warning C4244: '+=' : 'float'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+c:\dropbox\oil master\oil master\gasolinn\collider.cpp(185): warning C4715: 'Collider::_CollisionToCircle' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+c:\dropbox\oil master\oil master\gasolinn\collider.cpp(148): warning C4715: 'Collider::_CollisionToRectangle' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+c:\dropbox\oil master\oil master\gasolinn\scene.cpp(94): warning C4715: 'Scene::GetInstance' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+  컴파일하고 있습니다...
+  MinerSelect.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  코드를 생성하고 있습니다...
+ApplicationConfig.obj : warning LNK4099: 'vc120.pdb' PDB를 'ApplicationConfig.obj' 또는 'C:\Dropbox\Oil Master\Debug\vc120.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+  Oil Master.vcxproj -> C:\Dropbox\Oil Master\Debug\Oil Master.exe

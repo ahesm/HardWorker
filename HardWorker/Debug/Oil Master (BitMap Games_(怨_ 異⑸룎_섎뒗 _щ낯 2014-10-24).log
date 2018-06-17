@@ -1,0 +1,54 @@
+﻿  Title.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  MainMenu.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\dropbox\oil master\oil master\mainmenu.cpp(8): warning C4244: '인수' : 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\dropbox\oil master\oil master\mainmenu.cpp(10): warning C4244: '인수' : 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Main.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Timer.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\dropbox\oil master\oil master\gasolinn\timer.cpp(21): warning C4018: '>=' : signed 또는 unsigned가 일치하지 않습니다.
+  Timeline.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  SoundEngine.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  SE.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Scene.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Root.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  ResourceManager.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Random.cpp
+  Object.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\dropbox\oil master\oil master\gasolinn\object.cpp(183): warning C4244: '초기화 중' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\dropbox\oil master\oil master\gasolinn\object.cpp(187): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\dropbox\oil master\oil master\gasolinn\object.cpp(188): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\dropbox\oil master\oil master\gasolinn\object.cpp(189): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Label.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\dropbox\oil master\oil master\gasolinn\label.cpp(24): warning C4172: 지역 변수 또는 임시 변수의 주소를 반환하고 있습니다.
+  Input.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\dropbox\oil master\oil master\gasolinn\input.cpp(12): warning C4101: 'ps' :참조되지 않은 지역 변수입니다.
+c:\dropbox\oil master\oil master\gasolinn\input.cpp(13): warning C4101: 'hdc' :참조되지 않은 지역 변수입니다.
+  BGM.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  ApplicationConfig.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Application.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\dropbox\oil master\oil master\gasolinn\application.cpp(75): warning C4244: '+=' : 'float'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  AreaSelect.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  코드를 생성하고 있습니다...
+IDManager.obj : warning LNK4099: 'vc120.pdb' PDB를 'IDManager.obj' 또는 'C:\Dropbox\Oil Master\Debug\vc120.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+GlobalVar.obj : warning LNK4099: 'vc120.pdb' PDB를 'GlobalVar.obj' 또는 'C:\Dropbox\Oil Master\Debug\vc120.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Function.obj : warning LNK4099: 'vc120.pdb' PDB를 'Function.obj' 또는 'C:\Dropbox\Oil Master\Debug\vc120.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+ExtraData.obj : warning LNK4099: 'vc120.pdb' PDB를 'ExtraData.obj' 또는 'C:\Dropbox\Oil Master\Debug\vc120.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Collider.obj : warning LNK4099: 'vc120.pdb' PDB를 'Collider.obj' 또는 'C:\Dropbox\Oil Master\Debug\vc120.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+AnimationManager.obj : warning LNK4099: 'vc120.pdb' PDB를 'AnimationManager.obj' 또는 'C:\Dropbox\Oil Master\Debug\vc120.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+  Oil Master.vcxproj -> C:\Dropbox\Oil Master\Debug\Oil Master.exe

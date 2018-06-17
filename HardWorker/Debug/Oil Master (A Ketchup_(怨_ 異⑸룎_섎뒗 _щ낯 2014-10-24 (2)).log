@@ -1,0 +1,25 @@
+﻿  Title.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  AreaSelect.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  코드를 생성하고 있습니다...
+MainMenu.obj : warning LNK4099: 'vc120.pdb' PDB를 'MainMenu.obj' 또는 'C:\Dropbox\Oil Master\Debug\vc120.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Main.obj : warning LNK4099: 'vc120.pdb' PDB를 'Main.obj' 또는 'C:\Dropbox\Oil Master\Debug\vc120.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Timer.obj : warning LNK4099: 'vc120.pdb' PDB를 'Timer.obj' 또는 'C:\Dropbox\Oil Master\Debug\vc120.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Timeline.obj : warning LNK4099: 'vc120.pdb' PDB를 'Timeline.obj' 또는 'C:\Dropbox\Oil Master\Debug\vc120.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+SoundEngine.obj : warning LNK4099: 'vc120.pdb' PDB를 'SoundEngine.obj' 또는 'C:\Dropbox\Oil Master\Debug\vc120.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+SE.obj : warning LNK4099: 'vc120.pdb' PDB를 'SE.obj' 또는 'C:\Dropbox\Oil Master\Debug\vc120.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Scene.obj : warning LNK4099: 'vc120.pdb' PDB를 'Scene.obj' 또는 'C:\Dropbox\Oil Master\Debug\vc120.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Root.obj : warning LNK4099: 'vc120.pdb' PDB를 'Root.obj' 또는 'C:\Dropbox\Oil Master\Debug\vc120.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+ResourceManager.obj : warning LNK4099: 'vc120.pdb' PDB를 'ResourceManager.obj' 또는 'C:\Dropbox\Oil Master\Debug\vc120.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Random.obj : warning LNK4099: 'vc120.pdb' PDB를 'Random.obj' 또는 'C:\Dropbox\Oil Master\Debug\vc120.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Object.obj : warning LNK4099: 'vc120.pdb' PDB를 'Object.obj' 또는 'C:\Dropbox\Oil Master\Debug\vc120.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Label.obj : warning LNK4099: 'vc120.pdb' PDB를 'Label.obj' 또는 'C:\Dropbox\Oil Master\Debug\vc120.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Input.obj : warning LNK4099: 'vc120.pdb' PDB를 'Input.obj' 또는 'C:\Dropbox\Oil Master\Debug\vc120.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+IDManager.obj : warning LNK4099: 'vc120.pdb' PDB를 'IDManager.obj' 또는 'C:\Dropbox\Oil Master\Debug\vc120.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+GlobalVar.obj : warning LNK4099: 'vc120.pdb' PDB를 'GlobalVar.obj' 또는 'C:\Dropbox\Oil Master\Debug\vc120.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Function.obj : warning LNK4099: 'vc120.pdb' PDB를 'Function.obj' 또는 'C:\Dropbox\Oil Master\Debug\vc120.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+ExtraData.obj : warning LNK4099: 'vc120.pdb' PDB를 'ExtraData.obj' 또는 'C:\Dropbox\Oil Master\Debug\vc120.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Collider.obj : warning LNK4099: 'vc120.pdb' PDB를 'Collider.obj' 또는 'C:\Dropbox\Oil Master\Debug\vc120.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+BGM.obj : warning LNK4099: 'vc120.pdb' PDB를 'BGM.obj' 또는 'C:\Dropbox\Oil Master\Debug\vc120.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+  Oil Master.vcxproj -> C:\Dropbox\Oil Master\Debug\Oil Master.exe

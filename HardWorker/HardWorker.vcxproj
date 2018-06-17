@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8E504402-D6D9-4C61-9E91-3976D7BEAD5F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>HardWorker</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Dropbox\HardWorker\libogg\libvorbis-1.3.4\include\vorbis;C:\Dropbox\HardWorker\libogg\libogg-1.3.2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Dropbox\HardWorker\libogg\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\parks\Downloads\HardWorker\HardWorker\libogg\libvorbis-1.3.4\include\vorbis;C:\Users\parks\Downloads\HardWorker\HardWorker\libogg\libogg-1.3.2\include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2009%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\parks\Downloads\HardWorker\HardWorker\libogg\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2009%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="EndGameScene.cpp" />
+    <ClCompile Include="EndMineScene.cpp" />
+    <ClCompile Include="FadeIn.cpp" />
+    <ClCompile Include="FadeOut.cpp" />
+    <ClCompile Include="GameMoney.cpp" />
+    <ClCompile Include="GameScene.cpp" />
+    <ClCompile Include="IngameMiner.cpp" />
+    <ClCompile Include="Minecart.cpp" />
+    <ClCompile Include="MineEntry.cpp" />
+    <ClCompile Include="Miner.cpp" />
+    <ClCompile Include="MinerSelect.cpp" />
+    <ClCompile Include="MineScene.cpp" />
+    <ClCompile Include="Gasolinn\AnimationManager.cpp" />
+    <ClCompile Include="Gasolinn\Application.cpp" />
+    <ClCompile Include="Gasolinn\ApplicationConfig.cpp" />
+    <ClCompile Include="Gasolinn\BGM.cpp" />
+    <ClCompile Include="Gasolinn\Collider.cpp" />
+    <ClCompile Include="Gasolinn\ExtraData.cpp" />
+    <ClCompile Include="Gasolinn\Function.cpp" />
+    <ClCompile Include="Gasolinn\GlobalVar.cpp" />
+    <ClCompile Include="Gasolinn\IDManager.cpp" />
+    <ClCompile Include="Gasolinn\Input.cpp" />
+    <ClCompile Include="Gasolinn\Label.cpp" />
+    <ClCompile Include="Gasolinn\Object.cpp" />
+    <ClCompile Include="Gasolinn\Random.cpp" />
+    <ClCompile Include="Gasolinn\ResourceManager.cpp" />
+    <ClCompile Include="Gasolinn\Root.cpp" />
+    <ClCompile Include="Gasolinn\Scene.cpp" />
+    <ClCompile Include="Gasolinn\SE.cpp" />
+    <ClCompile Include="Gasolinn\SoundEngine.cpp" />
+    <ClCompile Include="Gasolinn\Timeline.cpp" />
+    <ClCompile Include="Gasolinn\Timer.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="ObjectForm.cpp" />
+    <ClCompile Include="Progress.cpp" />
+    <ClCompile Include="Title.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EndGameScene.h" />
+    <ClInclude Include="EndMineScene.h" />
+    <ClInclude Include="FadeIn.h" />
+    <ClInclude Include="FadeOut.h" />
+    <ClInclude Include="GameMoney.h" />
+    <ClInclude Include="GameScene.h" />
+    <ClInclude Include="IngameMiner.h" />
+    <ClInclude Include="Minecart.h" />
+    <ClInclude Include="MineEntry.h" />
+    <ClInclude Include="Miner.h" />
+    <ClInclude Include="MinerSelect.h" />
+    <ClInclude Include="MineScene.h" />
+    <ClInclude Include="Gasolinn.h" />
+    <ClInclude Include="Gasolinn\AnimationManager.h" />
+    <ClInclude Include="Gasolinn\Application.h" />
+    <ClInclude Include="Gasolinn\ApplicationConfig.h" />
+    <ClInclude Include="Gasolinn\BGM.h" />
+    <ClInclude Include="Gasolinn\Collider.h" />
+    <ClInclude Include="Gasolinn\ExtraData.h" />
+    <ClInclude Include="Gasolinn\Function.h" />
+    <ClInclude Include="Gasolinn\GlobalVar.h" />
+    <ClInclude Include="Gasolinn\IDManager.h" />
+    <ClInclude Include="Gasolinn\Input.h" />
+    <ClInclude Include="Gasolinn\Label.h" />
+    <ClInclude Include="Gasolinn\Object.h" />
+    <ClInclude Include="Gasolinn\Random.h" />
+    <ClInclude Include="Gasolinn\ResourceManager.h" />
+    <ClInclude Include="Gasolinn\Root.h" />
+    <ClInclude Include="Gasolinn\Scene.h" />
+    <ClInclude Include="Gasolinn\SE.h" />
+    <ClInclude Include="Gasolinn\SoundEngine.h" />
+    <ClInclude Include="Gasolinn\Timeline.h" />
+    <ClInclude Include="Gasolinn\Timer.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="ObjectForm.h" />
+    <ClInclude Include="Progress.h" />
+    <ClInclude Include="Title.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
