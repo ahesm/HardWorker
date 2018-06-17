@@ -1,2 +1,2 @@
 # HardWorker
-DirectX,VC++
+Simulation game written by DirectX, VC++
